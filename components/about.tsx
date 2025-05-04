@@ -13,7 +13,6 @@ const About = () => {
       <div className="max-w-screen-md mx-auto">
         <div className="flex flex-col md:flex-row-reverse gap-12">
           <ProfileImage className="hidden md:block" />
-          {/* Content */}
           <div className="flex-1 md:text-left">
             <Badge variant="secondary" className="mb-4">
               About Me
@@ -23,8 +22,9 @@ const About = () => {
               Hello!
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              My name is Christian Rhyss Jimenez, I am a 3rd year student currently taking BS in Computer Science at Ateneo de Davao University. I'm currently focused on full-stack development and exploring the fundamentals of machine learning, with plans to apply these skills in future projects. I enjoy building practical applications and learning through hands-on coding. Outside of tech, i'm into photography, cars and video games.
+              My name is Christian Rhyss Jimenez. I am a third-year student currently pursuing a Bachelor of Science in Computer Science at Ateneo de Davao University. I&rsquo;m focused on full-stack development and exploring the fundamentals of machine learning, with plans to apply these skills to future projects. I enjoy building practical applications and learning through hands-on coding. Outside of tech, I&rsquo;m interested in photography, cars, and video games.
             </p>
+
             <div className="flex flex-wrap gap-4 justify-start">
               <Link href="https://github.com/rjmn02"
                   target="_blank"

@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { CircleArrowDown, Zap } from "lucide-react";
+import {Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -13,8 +13,7 @@ const Hero = () => {
           Christian Rhyss R. Jimenez
         </h1>
         <p className="mt-6 text-[17px] md:text-lg">
-         Hello! My name is Christian Rhyss Jimenez, I am a 3rd year BS Computer Science Student. Welcome to my portfolio, 
-         here you can view my projects and educational background.
+         Hello! My name is Christian Rhyss Jimenez, I am a 3rd year BS Computer Science Student. Welcome to my portfolio, here you can view my projects and educational background.
         </p>
       </div>
     </div>

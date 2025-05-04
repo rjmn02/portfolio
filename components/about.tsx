@@ -23,9 +23,7 @@ const About = () => {
               Hello!
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              My name is Christian Rhyss Jimenez, I am a 3rd year student currently taking BS in Computer Science at Ateneo de Davao University.
-              I'm currently focused on full-stack development and exploring the fundamentals of machine learning, with plans to apply these skills in future projects. 
-              I enjoy building practical applications and learning through hands-on coding. Outside of tech, i'm into photography, cars and video games.
+              My name is Christian Rhyss Jimenez, I am a 3rd year student currently taking BS in Computer Science at Ateneo de Davao University. I'm currently focused on full-stack development and exploring the fundamentals of machine learning, with plans to apply these skills in future projects. I enjoy building practical applications and learning through hands-on coding. Outside of tech, i'm into photography, cars and video games.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
               <Link href="https://github.com/rjmn02"

@@ -83,7 +83,7 @@ const Projects = () => {
         "A Healthcare Management Information System. We designed this app with three users in mind, patients, doctors and caretakers as well as admins. " + 
         "Patients can manage their tasks, namely medications, exercise and appointments. They can also see their vital readings and enter journals. "+
         "Doctors and Caretakers, if given persmission, can manage their patients tasks as well as log vital readings for them.",
-      image: "/placeholder.svg",
+      image: "/cancom.png",
       technologies: ["NextJS", "TypeScript", "Prisma", "PostgreSQL", "Supabase"],
       liveUrl: "",
       githubUrl: "https://github.com/rjmn02/cancercompanion "

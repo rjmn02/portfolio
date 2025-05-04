@@ -5,6 +5,7 @@ import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { GithubLogo } from "./icons";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -27,10 +28,14 @@ const About = () => {
               I enjoy building practical applications and learning through hands-on coding. Outside of tech, i'm into photography, cars and video games.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
-                <GithubLogo />
-                View Github
-              </Button>
+              <Link href="https://github.com/rjmn02"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                <Button className="rounded-full">
+                  <GithubLogo />
+                  View Github
+                </Button>
+              </Link>
               <Button variant="outline" className="rounded-full">
                 <Download />
                 Download CV

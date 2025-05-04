@@ -54,20 +54,20 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
+      title: "Full Stack Developer",
+      company: "UIC - Marian TBI",
+      period: "2024",
+      description:
+        "Part of a two-man team that developed a Healthcare Management Information System. In this project, I learned a lot about systems design and backend development.",
+      technologies: ["NextJS", "Typescript", "Supabase", "PostgreSQL"],
+    },
+    {
       title: "Bachelor of Science in Computer Science",
       company: "Ateneo de Davao University",
       period: "2022 - Present",
       description:
         "",
       technologies: [],
-    },
-    {
-      title: "Full Stack Developer",
-      company: "UIC - Marian TBI",
-      period: "2023 - 2024",
-      description:
-        "Part of a two-man team that developed a Healthcare Management Information System. In this project, I learned a lot about systems design and backend development.",
-      technologies: ["NextJS", "Typescript", "Supabase", "PostgreSQL"],
     },
     {
       title: "Bachelor of Science in Electronics Engineering",
@@ -87,7 +87,7 @@ const Experience = () => {
             Experience
           </Badge>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Educational Background
+            Educational Background and Experience
           </h2>
         </div>
 

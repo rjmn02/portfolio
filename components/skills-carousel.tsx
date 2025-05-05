@@ -10,12 +10,10 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card"
 
+import Image from "next/image"
 
 interface Skills {
   image: string,
@@ -62,11 +60,16 @@ export const SkillsCarousel = () => {
   return (
     <Carousel>
       <CarouselContent>
-        {skills.map((skill)=>(
-          <CarouselItem className="md:basis-1/3 lg:basis-1/4">
+        {skills.map((skill: Skills) => (
+          <CarouselItem key={skill.title} className="basis-1/4">
             <Card>
               <CardContent>
-                <img src={skill.image} alt="skill_image.png" className="w-28 h-28"/>
+              <Image
+                src={skill.image}
+                width={500}
+                height={500}
+                alt="Picture of the author"
+              />
               </CardContent>
               <CardFooter className="flex justify-center">
                 <p>{skill.title}</p>

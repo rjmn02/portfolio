@@ -23,13 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.className} antialiased`} id="hero-background">
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Script
+      <Script
               src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
               strategy="beforeInteractive"
               />
@@ -55,6 +49,12 @@ export default function RootLayout({
                       spacing: 20.00
                     })`}
               </Script>
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -97,6 +97,24 @@ const Projects = () => {
       liveUrl: "",
       githubUrl: "https://github.com/rjmn02/employees-crud",
     },
+    {
+      title: "Responsive Website - Alan Turing's Biography" ,
+      description:
+        "A responsive website on Alan Turing's biography. A project for the Applications Development course",
+      image: "/alanturing.png",
+      technologies: ["NextJS", "TypeScript", "Prisma", "PostgreSQL"],
+      liveUrl: "https://rjmn02.github.io/static-website-project/",
+      githubUrl: "https://github.com/rjmn02/static-website-project",
+    },
+    {
+      title: "Calculators",
+      description:
+        "A website where one can calculate the fibonacci sequence, salary taxes, and do unit conversions. A project for the Intro to Computing course",
+      image: "/ITC.png",
+      technologies: ["NextJS", "TypeScript", "Prisma", "PostgreSQL"],
+      liveUrl: "https://rjmn02.github.io/calculators-project/",
+      githubUrl: "https://github.com/rjmn02/calculators-project",
+    },
   ];
 
   return (

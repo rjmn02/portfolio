@@ -66,7 +66,7 @@ const Experience = () => {
       company: "Ateneo de Davao University",
       period: "2022 - Present",
       description:
-        "",
+        "Transferee",
       technologies: [],
     },
     {
@@ -74,7 +74,7 @@ const Experience = () => {
       company: "Mapúa Malayan Colleges Mindanao",
       period: "2021 - 2022",
       description:
-        "Transfered",
+        "",
       technologies: [],
     },
   ];

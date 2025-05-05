@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { GithubLogo, XLogo } from "../icons";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -14,17 +16,14 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <Button
             variant="outline"
-            className="hidden sm:inline-flex rounded-full shadow-none"
-            size="icon"
-          >
-            <XLogo />
-          </Button>
-          <Button
-            variant="outline"
             className="rounded-full shadow-none"
             size="icon"
           >
-            <GithubLogo className="h-5! w-5!" />
+            <Link href="https://github.com/rjmn02"
+                  target="_blank"
+                  rel="noopener noreferrer">
+              <GithubLogo className="h-5! w-5!"/>
+            </Link>
           </Button>
 
           {/* Mobile Menu */}

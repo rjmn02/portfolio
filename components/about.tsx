@@ -15,30 +15,49 @@ const About = () => {
           <ProfileImage className="hidden md:block" />
           <div className="flex-1 md:text-left">
             <Badge variant="secondary" className="mb-4">
-              About Me
+              {"About Me"}
             </Badge>
             <ProfileImage className="mt-3 mb-8 block md:hidden" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
-              Hello!
+              {"Hello!"}
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              {"My name is Christian Rhyss Jimenez. I am a third-year student currently pursuing a Bachelor of Science in Computer Science at Ateneo de Davao University. I'm focused on full-stack development and exploring the fundamentals of machine learning, with plans to apply these skills to future projects. I enjoy building practical applications and learning through hands-on coding. Outside of tech, I'm interested in photography, cars, and video games."}
+              {"My name is Christian Rhyss Jimenez. I am a third-year student currently pursuing a Bachelor of Science in Computer Science at Ateneo de Davao University. I'm focused on back-end development and exploring the fundamentals of machine learning, with plans to apply these skills to future projects. I enjoy building practical applications and learning through hands-on coding. Outside of tech, I'm interested in photography, cars, and video games."}
             </p>
 
 
             <div className="flex flex-wrap gap-4 justify-start">
+            <Link href="https://www.linkedin.com/in/christian-rhyss-jimenez-b8752a29a/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                <Button className="rounded-full" >
+                  <Image
+                    src="/linkedin.png"
+                    width={20}
+                    height={20}
+                    alt="Picture of the author"
+                  />
+                  {"View Linked In"}
+                </Button>
+              </Link>
               <Link href="https://github.com/rjmn02"
                   target="_blank"
                   rel="noopener noreferrer">
                 <Button className="rounded-full">
                   <GithubLogo />
-                  View Github
+                  {"View Github"}
                 </Button>
               </Link>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Download CV
-              </Button>
+              <a 
+                href="/RESUME_JIMENEZ.pdf"
+                download target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" className="rounded-full">
+                  <Download />
+                    {"Download CV"}
+                </Button>
+              </a>
             </div>
           </div>
         </div>

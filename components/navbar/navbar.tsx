@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { GithubLogo, XLogo } from "../icons";
+import { GithubLogo } from "../icons";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navbar = () => {
   return (

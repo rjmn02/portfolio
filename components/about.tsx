@@ -40,6 +40,7 @@ const About = () => {
                   {"View Linked In"}
                 </Button>
               </Link>
+              
               <Link href="https://github.com/rjmn02"
                   target="_blank"
                   rel="noopener noreferrer">
@@ -48,7 +49,8 @@ const About = () => {
                   {"View Github"}
                 </Button>
               </Link>
-              <a 
+
+              <Link 
                 href="/RESUME_JIMENEZ.pdf"
                 download target="_blank" 
                 rel="noopener noreferrer"
@@ -57,7 +59,7 @@ const About = () => {
                   <Download />
                     {"Download CV"}
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

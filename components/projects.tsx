@@ -102,7 +102,7 @@ const Projects = () => {
       description:
         "A responsive website on Alan Turing's biography. A project for the Applications Development course",
       image: "/alanturing.png",
-      technologies: ["NextJS", "TypeScript", "Prisma", "PostgreSQL"],
+      technologies: ["HTML", "CSS"],
       liveUrl: "https://rjmn02.github.io/static-website-project/",
       githubUrl: "https://github.com/rjmn02/static-website-project",
     },
@@ -111,7 +111,7 @@ const Projects = () => {
       description:
         "A website where one can calculate the fibonacci sequence, salary taxes, and do unit conversions. A project for the Intro to Computing course",
       image: "/ITC.png",
-      technologies: ["NextJS", "TypeScript", "Prisma", "PostgreSQL"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rjmn02.github.io/calculators-project/",
       githubUrl: "https://github.com/rjmn02/calculators-project",
     },

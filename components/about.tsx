@@ -22,7 +22,7 @@ const About = () => {
               {"Hello!"}
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              {"I'm Christian Rhyss Jimenez, a third-year Computer Science student at Ateneo de Davao University with a strong interest in back-end development. I enjoy learning through hands-on coding. I'm currently exploring the fundamentals of machine learning and have a growing curiosity about cybersecurity. Outside of tech, I’m into photography, cars, and video games."}
+              {"I'm Christian Rhyss Jimenez, a third-year Computer Science student at Ateneo de Davao University with a strong interest in back-end development. I enjoy learning through hands-on coding. Outside of tech, I’m into photography, cars, and video games."}
             </p>
 
 

@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="relative z-[1] text-center max-w-screen-md">
         <Badge className="rounded-full border-none">
           <Zap className="fill-current" />
-          {"Back-end Developer"}
+          {"Back-end Development"}
         </Badge>
         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
           {"Christian Rhyss R. Jimenez"}
@@ -19,7 +19,7 @@ const Hero = () => {
         <p className="mt-6 text-[17px] md:text-lg">
          {"Hello! My name is Christian Rhyss Jimenez, I am a 3rd year BS Computer Science Student. Welcome to my portfolio, here you can view my projects and educational background."}
         </p>
-        <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
+        <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight" >
           {"Technical Skills"}
         </h1>
         <SkillsCarousel />
